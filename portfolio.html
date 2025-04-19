@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Portfolio.</a>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contacts">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="home-content">
+            <div class="content">
+                <h1>Hi, I'm Hiral Zala</h1>
+                <h3>Frontend Developer</h3>
+                <p>I'm a passionate Frontend Developer who loves crafting responsive, user-friendly, and visually
+                    appealing web experiences.
+                    With expertise in HTML, CSS, JavaScript, and React.js, I focus on building clean, efficient, and
+                    interactive websites.</p>
+            </div>
+            <div class="profile-pic">
+                <img class="profile" src="photo.avif" alt="person">
+            </div>
+        </div>
+    </section>
+
+    <section id="about-me">
+        <div class="about-content">
+            <h1>About Me</h1>
+            <h3>Hi,I'm Hiral Zala</h3>
+            <p>I'm Hiral Zala, a passionate Frontend Developer with a strong foundation in web technologies. I
+                specialize in creating dynamic, user-friendly, and responsive websites using HTML, CSS, JavaScript, and
+                frameworks like React.js. With an eye for detail and a focus on user experience, I enjoy turning design
+                concepts into functional, interactive web pages.</p>
+            <p>Currently, I'm pursuing a Bachelor's degree in Computer Science and Technology, where I’ve had the
+                opportunity to dive deep into both the technical and creative aspects of development. My goal is to
+                bridge the gap between design and functionality to bring ideas to life on the web.</p>
+            <p>When I'm not coding, you can find me exploring new tech trends, experimenting with new tools, or working
+                on personal projects to expand my knowledge.</p>
+        </div>
+    </section>
+
+    <section id="project">
+        <h1>Projects</h1>
+        <div class="project-container">
+            <div class="project">
+                <h3>Quiz-app</h3>
+                <p>A dynamic and interactive quiz application built to test users' knowledge on various topics. The app
+                    features real-time score updates, and multiple-choice questions to enhance engagement.</p>
+                <img src="quiz.png" alt="">
+                <p><a href="https://hiralba495.github.io/quiz-app/" target="_blank">Visit Now</a></p>
+            </div>
+            <div class="project">
+                <h3>To-Do App</h3>
+                <p>A simple and efficient To-Do List app that helps users organize tasks, set priorities, and track
+                    progress. With an intuitive interface, users can add, edit, delete, and mark tasks as completed.</p>
+                <img src="todo.png" alt="">
+                <p><a href="https://hiralba495.github.io/to-do-list/" target="_blank">Visit Now</a></p>
+            </div>
+            <div class="project">
+                <h3>Currency Converter</h3>
+                <p>A simple and efficient currency converter that converts US Dollars into Indian Rupees, Euros, Chinese
+                    Yuan, and South Korean Won. The app provides real-time conversion rates and a smooth user
+                    experience.</p>
+                <img src="converter.png" alt="">
+                <p><a href="https://hiralba495.github.io/currency-converter/" target="_blank">Visit Now</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts">
+        <div class="left-section">
+            <img src="contact.jpg" alt="">
+            <h1>Have a project idea or <br>want to collaborate?</h1>
+            <h2>Let's Talk.</h2>
+        </div>
+        <div class="right-section">
+            <div class="name">
+                <label for="name">Your Name</label>
+                <input type="text" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="email">
+                <label for="name">Your Email</label>
+                <input type="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="message">
+                <label for="name">Your Message</label>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="send-btn">Send Message</button>
+        </div>
+    </section>
+
+</body>
+<script src="portfolio.js"></script>
+
+</html>
